@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+        <!-- google fonts added -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nanum+Brush+Script&family=Rubik:wght@400;700;900&display=swap" rel="stylesheet">
+        <!-- css stylesheet -->
+        <link rel="stylesheet" href="./stylesheet.css">
+        <!-- website details -->
+        <link rel="icon" type="image/svg" href="./ICONS/Fav-32px.svg" size="32x32">
+        <title>FindTrend</title>
+    </head>
+    <body>
+        <!-- header section -->
+        <header class="header container">
+            <!-- header navigation section -->
+            <nav role="main-navigation" class="header-navigation">
+                <!-- logo display for mobile view -->
+                <img class="colored-logo__mobile" src="./ICONS/Fav-32px.svg" alt="logo">
+                <!-- logo display for desktop view -->
+                <img class="colored-logo__desktop" src="./ICONS/Logo color.svg" alt="logo">
+                <!-- navigation links display for mobile view using the checkbox hack -->
+                <div class="navigation-menu">
+                    <input type="checkbox" id="dropdown">
+                    <label for="dropdown" class="navigation-menu__dropdown">
+                        <span class="line line-1"></span>
+                        <span class="line line-2"></span>
+                    </label>
+                    <!-- navigation links -->
+                    <div class="navigation-menu__dropdown--mobile">
+                        <ul class="header-navigation__list main-list ">
+                            <li>
+                                <a href="#" class="link header-navigation__list--link">
+                                    <span>About</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="link header-navigation__list--link">
+                                    <span>How it works</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="link header-navigation__list--link">
+                                    <span>Pricing</span>
+                                </a>
+                            </li> <li>
+                                <a href="#" class="link header-navigation__list--link">
+                                    <span>Solutions</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="link header-navigation__list--link">
+                                    <span>Features</span>
+                                </a>
+                            </li>
+                        </ul>      
+                        <ul class="header-navigation__list sign-up__list">
+                            <li>
+                                <a href="#" class="link sign-up__list--link">
+                                    <span>Login</span>
+                                </a>
+                            </li>
+                            <li>                            
+                                <a href="#" class="link sign-up__list--link sign-up__link--register">
+                                    <span>Register</span>
+                                </a>
+                            </li>
+                        </ul>             
+                        
+                    </div>
+                </div>
+            </nav>
+            <!-- header details -->
+            <div class="header_content">
+                <h1 class="header_content--heading">Minimize your tabs.<br>Find the trends!</h1>
+                <p class="header_content--details">
+                    Don't let your computer memories consumes all of those browser tabs. 
+                    Findtrend  let you gathers all of your favorite website into one place.
+                </p>
+                <!-- get started link -->
+                <a class="header_content--link" href="#">
+                    <span class="details">
+                        Get Started
+                        <img src="./ICONS/flame.png" alt="icon" class="flame-icon">
+                    </span>
+                </a>
+                <!-- text over the link -->
+                <p class="header_content--promotion">
+                    All research start from here
+                    <br>
+                    <img src="./ICONS/arrow white.svg" alt="icon" class="header-arrow">
+                </p>
+            </div>
+            <!--tabs-->
+            <div class="tab-list">
+                <img class="twitter tab" src="./ICONS/tab4.svg">
+                <img class="pinterest tab" src="./ICONS/tab3.svg">
+                <img class="facebook tab"  src="./ICONS/tab2.svg">
+                <img class="dribbble tab"  src="./ICONS/tab1.svg">   
+            </div>  
+        </header>
+        <!-- main content section -->
+        <main>
+            <!-- open new tabs section -->
+            <section class="open-new-tabs container">
+                <div class="open-new-tabs__content">
+                    <!-- the section heading -->
+                    <h2 class="open-new-tabs__content--heading">Open new tabs is sh*t</h2>
+                    <!-- the section main-content  -->
+                    <div class="sub-content">
+                        <!-- small text by the left -->
+                        <p class="sub-content__details one">
+                            You just need one tab now
+                            <br>
+                            <img src="./ICONS/arrow black.svg" class="arrow-left" alt="icon">
+                        </p>
+                        <!-- center image -->
+                        <div class="sub-content__image">
+                            <img src="./ICONS/tab5.svg" class="FindTrend-tab" alt="find trend tab">
+                        </div>
+                        
+                        <!-- small text by the right -->
+                        <p class="sub-content__details two">
+                            <img src="./ICONS/arrow black.svg" class="arrow-right" alt="icon"> 
+                            <br>
+                            Solution for discover a trend
+                        </p>
+                    </div>
+                    <!-- the section details -->
+                    <p class="open-new-tabs__content--details">
+                        A solution for your browser tabs and don't make your device get slower over time. Get ease and faster to discover a trend with just one tab.
+                    </p>
+                </div>
+            </section>
+            <!-- 'uses of findtrend' section -->
+            <section class="findtrend-uses container">
+                <p class="findtrend-uses__details">
+                    Findtrend helps you to increase your productivity and reduce your computer's memory load,
+                     <!--part of write-up in grey -->
+                    <span class="findtrend-uses__details--grey">
+                        an application that can fulfill your daily browsing needs.
+                    </span>  
+                </p>
+            </section>
+            <!-- list of findtrend partners section -->
+            <section class="findtrend-partners container">
+                <!-- the section's heading -->
+                <h3 class="findtrend-partners__heading">Findtrend make +1000 Startup grow</h3>
+                <!-- the list of partners -->
+                <div class="findtrend-partners__list">
+                  
+                    <img src="./partner/partner1.svg" alt="partner" class="partner">           
+                    <img src="./partner/partner2.svg" alt="partner" class="partner">
+                    <img src="./partner/partner3.svg" alt="partner" class="partner">
+                    <img src="./partner/partner4.svg" alt="partner" class="partner">
+                    <img src="./partner/partner5.svg" alt="partner" class="partner">
+                    <img src="./partner/partner6.svg" alt="partner" class="partner">
+                    <img src="./partner/partner7.svg" alt="partner" class="partner">
+                    <img src="./partner/partner8.svg" alt="partner" class="partner">
+                    <img src="./partner/partner9.svg" alt="partner" class="partner">
+                    <img src="./partner/partner10.svg" alt="partner" class="partner">
+                    <img src="./partner/partner11.svg" alt="partner" class="partner">
+                    <img src="./partner/partner12.svg" alt="partner" class="partner">
+                    <img src="./partner/partner13.svg" alt="partner" class="partner">
+                    <img src="./partner/partner14.svg" alt="partner" class="partner">
+                    <img src="./partner/partner15.svg" alt="partner" class="partner">
+                    <img src="./partner/partner16.svg" alt="partner" class="partner">
+
+                </div>
+            </section>
+            <!-- apps that are connected to findtrend -->
+            <section class="connected-platforms container">
+                <h4 class="connected-platforms__heading">All platform connect to Findtrend</h4>
+                <!-- connected apps list -->
+                <div class="connected-platforms__list">
+                    <div class="connected-platforms__list--socials">
+                        <img src="./ICONS/social media8.svg" alt="connected apps" class="app">
+                    </div>
+                    <div class="connected-platforms__list--socials">
+                        <img src="./ICONS/social media7.svg" alt="connected apps" class="app">
+                    </div>
+                    <div class="connected-platforms__list--socials">
+                        <img src="./ICONS/social media6.svg" alt="connected apps" class="app">
+                    </div>
+                    <div class="connected-platforms__list--socials">
+                        <img src="./ICONS/social media5.svg" alt="connected apps" class="app">
+                    </div>
+                    <div class="connected-platforms__list--socials">
+                        <img src="./ICONS/social media4.svg" alt="connected apps" class="app">
+                    </div>
+                    <div class="connected-platforms__list--socials">
+                        <img src="./ICONS/social media3.svg" alt="connected apps" class="app">
+                    </div>
+                    <div class="connected-platforms__list--socials">
+                        <img src="./ICONS/social media2.svg" alt="connected apps" class="app">
+                    </div>
+                    <div class="connected-platforms__list--socials">
+                        <img src="./ICONS/social media1.svg" alt="connected apps" class="app">
+                    </div>
+                </div>
+                <!-- excerpt tweets -->
+                <div class="connected-platforms__twitter">
+                    <img src="./ICONS/tweet 1.svg" alt="tweet" class="tweet one">
+                    <img src="./ICONS/tweet 2.svg" alt="tweet" class="tweet two">
+                    <img src="./ICONS/tweet 3.svg" alt="tweet" class="tweet three">
+                </div>
+                <!-- link to view more trends -->
+                <a href="#" class="connected-platforms__link">
+                    <span>View more trends</span>
+                </a>
+            </section>
+            <section class="subscription container">
+                <!-- the section's heading -->
+                <h5 class="subscription__heading">Get your best deal</h5>
+                <!-- monthly/yearly option  toggle switch-->
+                <div class="subscription__plan">
+                    <!-- monthly option -->
+                    <span class="subscription__plan--monthly">Monthly</span>
+                    <label for="toggle" class="switch">
+                        <!-- checkbox -->
+                        <input type="checkbox" id="toggle">
+                        <span class="slider"></span>  
+                    </label>
+                    <!-- yearly option -->
+                    <span class="subscription__plan--yearly">Yearly</span>
+                </div>
+                <!-- small promotion text over yearly option -->
+                <div class="promotion">
+                    <p class="promotion-text">
+                        <span>Save 10% per month</span>
+                        <br>
+                        <img src="./ICONS/arrow white.svg" alt="icon" class="arrow-white">
+                    </p>
+                </div>
+                <!--subscription price grids -->
+                <div class="subscription__price">
+                    <!-- personal subscription -->
+                    <div class="subscription__price--personal subscription__price--white">
+                        <h6 class="heading">Personal</h6>
+                        <p class="details">Special first packet for all</p>
+                        <span class="decorative-line"></span>
+                        <!-- subscription cost -->
+                        <p class="cost">
+                            $8
+                            <span class="per-month">/month</span>
+                        </p>
+                        <!-- the plan perks -->
+                        <ul class="perks">
+                            <li>Up to 5 page each group</li>
+                            <li>Up to 10 group page</li>
+                            <li>5 Days group page saved</li>
+                        </ul>
+                        <!-- link to get started -->
+                        <a href="#" class="start-trial">
+                            <span>Start Free Trial</span>
+                        </a>
+                    </div>
+                    <!-- regular subscription -->
+                    <div class="subscription__price--regular ">
+                        <h6 class="heading">Regular</h6>
+                        <p class="details">Recommended for personal pro</p>
+                        <span class="decorative-line"></span>
+                        <!-- subscription cost -->
+                        <p class="cost">
+                            $20
+                            <span class="per-month">/month</span>
+                        </p>
+                        <!-- the plan perks -->
+                        <ul class="perks">
+                            <li>Up to 15 page each group</li>
+                            <li>Download page up to 20 page</li>
+                            <li>Up to 10 group page</li>
+                            <li>15 Days group page saved</li>
+                        </ul>
+                        <!-- link to get started -->
+                        <a href="#" class="start-trial">
+                            <span>Start Free Trial</span>
+                        </a>
+                    </div>
+                    <!-- premium subscription -->
+                    <div class="subscription__price--premium subscription__price--white">
+                        <h6 class="heading">Premium</h6>
+                        <p class="details">Packet for Startup & Company</p>
+                        <span class="decorative-line"></span>
+                        <!-- subscription cost -->
+                        <p class="cost">
+                            $48
+                            <span class="per-month">/month</span>
+                        </p>
+                        <!-- the plan perks -->
+                        <ul class="perks">
+                            <li>Unlimited group pages</li>
+                            <li>Unlimited download page</li>
+                            <li>Unlimited page each group</li>
+                            <li>Customize sorting group pages</li>
+                            <li>Customize group page name</li>
+                            <li>30 Days group page saved</li>
+                        </ul>
+                        <!-- link to get started -->
+                        <a href="#" class="start-trial">
+                            <span>Start Free Trial</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- joining the community -->
+            <section class="community container">
+                <p class="community__heading">
+                    Join us on email for
+                    <span class="community__heading--green">
+                        more trending topics
+                    </span>
+                </p>
+                <a href="#" class="community__link">
+                    <span>Join Now </span>
+                </a>
+            </section>
+        </main>
+        <footer class="footer container">
+            <img src="./ICONS/logo dark.svg" alt="logo" class="dark-logo">
+            <!-- minor navigation -->
+            <nav role="sub-navigation" class="footer-navigation">
+                <!-- the navigation links -->
+                <ul class="footer-navigation__list">
+                    <li>
+                        <a href="#" class="footer-navigation__list--link">
+                            <span>Privacy Policy</span>
+                        </a>                        
+                    </li>
+                    <li>
+                        <a href="#" class="footer-navigation__list--link">
+                            <span>Terms and Conditions</span>
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#" class="footer-navigation__list--link">
+                            <span>Contact Us</span>
+                        </a>                       
+                    </li>
+                    <li>
+                        <a href="#" class="footer-navigation__list--link">
+                            <span>Careers</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+
+    </body>
+</html>
